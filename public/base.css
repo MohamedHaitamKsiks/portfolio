@@ -1,0 +1,39 @@
+:root{
+    --backgroundcolor: #40515c;
+    --navbarcolor: #071118;
+    --navbarshadowcolor: #050e1d;
+    --focuscolor: #F66B0E;
+}
+
+
+body {
+    background-image: url('/background.svg');
+    background-size: cover;
+    background-position: 0px -100px;
+    background-color: black;
+    
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    animation-name: animation-body;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes animation-body {
+    0% {
+        background-position: 0px -100px;
+    }
+    50% {
+        background-position: 0px -30px;
+    }
+    100% {
+        background-position: 0px -100px;
+    }
+}
+

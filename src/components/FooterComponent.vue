@@ -4,31 +4,37 @@ import IconComponent from './IconComponent.vue';
 </script>
 
 <template>
-    <img :class="getArrowClass" src="../assets/icons/down_arrow.png"/>
+    <img v-if="canScroll" :class="getArrowClass" src="/icons/down_arrow.png" />
     <div class="footer">
-        
+        <h2>My Socials</h2>
         <nav class="icon-list">
-            <IconComponent href="https://github.com/MohamedHaitamKsiks" src="/src/assets/icons/github_icon.png" delay="0s"/>
-            <IconComponent href="https://github.com/MohamedHaitamKsiks" src="/src/assets/icons/fiverr_icon.png"  delay="1s"/>
-            <IconComponent href="https://github.com/MohamedHaitamKsiks" src="/src/assets/icons/linkedin_icon.png"  delay="2s"/>
-            <IconComponent href="https://github.com/MohamedHaitamKsiks" src="/src/assets/icons/itch_io_icon.png"  delay="3s"/>
+            <IconComponent href="https://github.com/MohamedHaitamKsiks" src="github_icon.png" />
+            <IconComponent href="https://www.fiverr.com/haitamksiks" src="fiverr_icon.png" />
+            <IconComponent href="https://www.linkedin.com/in/mohamed-haitam-ksiks-58a56921a/" src="linkedin_icon.png" />
+            <IconComponent href="https://simple-team.itch.io/" src="itch_io_icon.png" />
         </nav>
     </div>
 </template>
 
 <script>
+    //down arrow code
     export default {
         data() {
             return {
-                scrolled: false
+                scrolled: false,
+                canScroll: true
             }
         },
         mounted() {
             window.addEventListener("scroll", this.onScroll);
+            this.canScroll = document.body.scrollHeight > document.body.clientHeight;
         },
         methods: {
             onScroll() {
-                this.scrolled = window.scrollY != 0;
+                this.scrolled = window.scrollY > 64;
+            },
+            onResize() {
+                this.canScroll = document.body.scrollHeight > document.body.clientHeight;
             }
         },
         computed: {
@@ -50,14 +56,16 @@ import IconComponent from './IconComponent.vue';
         margin: 12px;
         height: 120px;
 
-        border-top-style: solid;
-        border-top-width: 2px;
+        text-align: center;
+        /*border-top-style: solid;
+        border-top-width: 2px;*/
 
-        margin-top: 10%;
+        margin-top: 9%;
         
     }
     .icon-list {
         text-align: center;
+        
     }
     .down-arrow {
         width: 4%;

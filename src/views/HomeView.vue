@@ -12,8 +12,7 @@ import ProfilePicture from "../components/ProfilePictureComponent.vue";
         </div>
         <div class="description-container">
             <p>
-                Hello, My name is Ksiks Mohamed Haitam. I'm a software engineer student and a part time game developer.
-                I've worked with many clients providing all sorts of develomenent sercives.
+                Hi, I'm Haitam. I'm a software engineer student and a part time game developer.
                 <br/> 
             </p>
             <p>
@@ -38,7 +37,8 @@ import ProfilePicture from "../components/ProfilePictureComponent.vue";
         mounted() {
             //start writing
             setTimeout(this.addCharacter(), 1100);
-            this.writing = '_'
+            this.writing = '_';
+            window.scrollTo(0, 0);
         },
         methods: {
             addCharacter() {
@@ -88,12 +88,12 @@ import ProfilePicture from "../components/ProfilePictureComponent.vue";
 
 
     .description-container{
-        text-align: justify; 
-        padding-left: 30%;
-        padding-right: 30%;
-        margin-top: 48px;
-        margin-bottom: 48px;
-        
+        text-align:center; 
+        width: 60%;
+        margin: auto;
+        margin-top: 64px;
+        margin-bottom: 0px;
+
     }
 
 </style>

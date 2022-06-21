@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-position: 0px -100px;
     background-color: black;
+    background-attachment: fixed;
     
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -18,10 +19,12 @@ body {
     padding: 0px;
     margin: 0px;
     border: 0px;
-
+    
     animation-name: animation-body;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+
+
     
 }
 
@@ -37,3 +40,30 @@ body {
     }
 }
 
+.button-primary {
+    /*make button box*/
+    background-color: transparent;
+    padding: 0.1cm;
+    margin: 0.3cm;
+    width: 3cm;
+
+    /*outline*/
+    border-style: solid;
+    border-color: var(--focuscolor);
+    border-width: 1px;
+    border-radius: 0.5cm;
+
+    /*text*/
+    color: var(--focuscolor);
+    text-align: center;
+    font-size: x-large;
+
+     /*transistion*/
+     transition: color 0.3s, background-color 0.3s;
+}
+
+.button-primary:hover {
+    color: rgb(23, 32, 43);
+    background-color: var(--focuscolor);
+    cursor: pointer;
+}

@@ -1,30 +1,28 @@
 <script>
 import { computed } from '@vue/reactivity';
-
+    //define icon args
     export default{
         props: {
             href: String,
             src: String,
-            delay: String
         },
         
     }
 </script>
 
 <template>
-    <a :href="href" class="icon-link"><img :src="src" class="icon-image"/></a>
+    <a :href="href" class="icon-link"><img :src="'/icons/' + src" class="icon-image"/></a>
 </template>
 
 <style>
     .icon-image {
         width: 64px;
+        margin: 32px;
         margin-left: 3%;
         margin-right: 3%;
         animation-name: animation-icon;
         animation-duration: 5s;
         animation-iteration-count: infinite;
-
-    
     }
 
     @keyframes animation-icon {

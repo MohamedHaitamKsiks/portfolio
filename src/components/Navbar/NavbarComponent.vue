@@ -9,7 +9,6 @@
         <NavbarLink href="/projects" value="Projects" />
         <NavbarLink href="/freelance" value="Freelance" />
         <NavbarLink href="/about" value="About" />
-        <NavbarLink href="/contact" value="Contact" />
     </nav>
 </template>
 
@@ -20,10 +19,12 @@
 		text-align: center;
         font-size: larger;
         box-shadow: 0px 8px 10px #010b1288;
-        overflow: hidden;
+        overflow:auto;
         width: 100%;
         position: fixed;
         top: 0;
+
+        z-index: 100;
 	}
 
 </style>

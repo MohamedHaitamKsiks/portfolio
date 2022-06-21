@@ -1,0 +1,121 @@
+[
+    {
+        "id": "f434aa5f-1ab7-4970-b63d-a9cb9d373edc",
+        "title": "Light Breaker",
+        "description": "Light Breaker is a fun mobile game made for android devices. \nI worked in the game as a programmer since the beginning of the project. ",
+        "type": "Mobile Application",
+        "year": "2021",
+        "link": "https://play.google.com/store/apps/details?id=org.godotengine.lightspeedsource",
+        "tools": [
+            "Godot",
+            "OpenGL"
+        ],
+        "images": [
+            "93efab98-4924-46b1-9d73-13c427048593.webp",
+            "58a28a76-1483-49c7-adad-90e7bafd509a.webp",
+            "fa4b9d99-b990-4e8e-b9e8-f5956437bb99.webp",
+            "b504592a-07cc-4b66-bec8-d162fc39fa10.png",
+            "e788aaa2-c6e5-4df7-829b-3059fe412ae8.png"
+        ],
+        "main": 4
+    },
+    {
+        "id": "a87c5317-604b-4486-a389-1ad63e1246b5",
+        "title": "SUPER MARIO MANIA",
+        "description": "This game is a remake for the most iconic levels in the Super Mario franchise.\n\n\nControls:\n\nMove: arrow keys / gamepad( joystic)k\n\nAccept: space bar / gamepad (A)\n\nPause: enter / gamepad (start)\n\nJump: spacebar / gamepad (A)\n\nThrow Cappy: Q/ gamepad (X)\n\nSprint: S/ gamepad (L2)\n\nDive: D/ gamepad (R2)\n\n",
+        "type": "Desktop Application",
+        "year": "2020",
+        "link": "https://simple-team.itch.io/super-mario-mania",
+        "tools": [
+            "Godot",
+            "OpenGL"
+        ],
+        "images": [
+            "e995179d-8621-4fed-81c8-f803ca03025c.gif",
+            "0f277a61-4f4e-4337-b3f1-9f55e9df6e44.gif",
+            "ed6d9065-4fd2-436e-94f1-f5230f481efa.gif",
+            "3058ca68-2959-4287-8a46-08eae0bef45f.gif",
+            "363ed1c5-123d-4eb5-b78e-fbede46494ec.png"
+        ],
+        "main": 4
+    },
+    {
+        "id": "8a0fa086-bb07-4ce6-bebe-de239f518008",
+        "title": "My Porfolio",
+        "description": "This portfolio contains all the informations you need regarding my skills, freelance experiences and projects. \nIt was built using HTML, CSS, JavaSript and VueJS.",
+        "type": "WEB Application",
+        "year": "2022",
+        "link": "https://mohamedhaitamksiks.github.io/",
+        "tools": [
+            "HTML",
+            "CSS",
+            "JS",
+            "VueJS"
+        ],
+        "images": [
+            "4394cc53-f52d-4add-9627-029cd6c4a2d2.png",
+            "0a324df5-4a36-4ed8-90e5-cc797bdc62ec.png",
+            "42a37df2-b781-4981-a89c-f19dea40ec8a.png",
+            "b61f8f98-0c50-41de-8300-7685fc922546.png"
+        ],
+        "main": 3
+    },
+    {
+        "id": "d7386291-8ebf-40ca-a448-c80f9233e353",
+        "title": "Portfolio Projects Manager",
+        "description": "It's a desktop application that allows me to add, delete or modify projects for my portfolio.\nIt generates a JSON file that contains all projects. And an Image folder that contains all the projects images.",
+        "type": "Desktop Application",
+        "year": "2022",
+        "link": "https://github.com/MohamedHaitamKsiks/portfolio-projects-manager",
+        "tools": [
+            "JS",
+            "HTML",
+            "CSS",
+            "VueJS",
+            "Bootstrap"
+        ],
+        "images": [
+            "07738007-3881-4358-a0bd-3952a4c1baba.png",
+            "ecaf4bd1-429e-480d-a286-7675259277c3.png"
+        ],
+        "main": 0
+    },
+    {
+        "id": "fd526b37-05cf-4e5a-8823-37466b02be9e",
+        "title": "Yui-chan loves her chicken",
+        "description": "Explore this abandoned site with Yui-chan and her cute chicken. Fight monsters and boss to level up your health and stamina. Yui-chan can't attack while carrying her chicken, so make sure to put it down to fight. But watch out, monsters target the chicken so protect it, because Yui-chan and her chicken share the same HP.\n\nThis Game was made for the GMTK Game Jam 2021",
+        "type": "Desktop Application",
+        "year": "2021",
+        "link": "https://simple-team.itch.io/yui-loves-her-chicken",
+        "tools": [
+            "Godot",
+            "OpenGL"
+        ],
+        "images": [
+            "e9c7de56-7b97-431a-90e9-aa184c004887.png",
+            "bdee3e06-fb89-45b5-a432-f7be23e968f4.png",
+            "a3ceabb2-6cdb-4927-9ec8-9464904b149f.png",
+            "0bbc90b9-2817-47c1-970f-4280d7938832.gif"
+        ],
+        "main": 0
+    },
+    {
+        "id": "c3b2bc4b-9fc2-444f-93ea-13727c86b4a9",
+        "title": "I did NOT want that card!",
+        "description": "In this rogue like , you can't choose your equipment, In fact it's picked randomly form a deck of cards.\n\nThis game was made for the GMTK Game jam 2020",
+        "type": "Desktop Application",
+        "year": "2020",
+        "link": "https://simple-team.itch.io/i-did-not-want-that-card",
+        "tools": [
+            "Godot",
+            "OpenGL"
+        ],
+        "images": [
+            "1e7c9a10-7e41-4a05-9019-38fa0cfb31cb.png",
+            "a10547d6-e508-4368-b3e0-769888752f37.png",
+            "cfa945cd-5a88-470f-a525-6ab83957692b.png",
+            "dd0301d9-af33-4173-a0c0-fd5859c1e3f7.gif"
+        ],
+        "main": 0
+    }
+]

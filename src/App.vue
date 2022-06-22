@@ -18,5 +18,4 @@
 </template>
 
 <style>
-	
 </style>

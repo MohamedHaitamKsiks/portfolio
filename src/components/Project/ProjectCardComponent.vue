@@ -4,6 +4,8 @@ import ToolsComponent from './ToolsComponent.vue';
 </script>
 
 <template>
+
+
     <div :class="'project-card ' + getHideClass">
         <div class="project-card-header">
             // {{ project.type }}
@@ -62,9 +64,11 @@ import ToolsComponent from './ToolsComponent.vue';
 </script>
 
 <style>
+
+
     /*card body*/
     .project-card {
-        margin: 16px;
+        margin: 12px;
         display: inline-block;
         /*width: 11cm;*/
         width: 12cm;
@@ -83,6 +87,7 @@ import ToolsComponent from './ToolsComponent.vue';
 
     /*header*/
     .project-card-header {
+        text-align: left;
         opacity: 60%;
         padding: 0.2cm;
     }

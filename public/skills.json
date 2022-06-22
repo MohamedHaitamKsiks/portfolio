@@ -1,0 +1,77 @@
+[
+    {
+        "category": "WEB Development",
+        "skills": [
+            {
+                "skill": "HTML/CSS",
+                "value": 72
+            },
+            {
+                "skill": "JavaScript",
+                "value": 75
+            },
+            {
+                "skill": "VueJS",
+                "value": 70
+            },
+            {
+                "skill": "NodeJS",
+                "value": 60
+            },
+            {
+                "skill": "ExpressJS",
+                "value": 58
+            },
+            {
+                "skill": "PHP",
+                "value": 45
+            },
+            {
+                "skill": "MySQL",
+                "value": 65
+            }
+        ]
+    },
+    {
+        "category": "Desktop/Mobile Development",
+        "skills": [
+            {
+                "skill": "Electron",
+                "value": 53
+            },
+            {
+                "skill": "C/C++",
+                "value": 70
+            },
+            {
+                "skill": "Java",
+                "value": 60
+            },
+            {
+                "skill": "Godot",
+                "value": 90
+            },
+            {
+                "skill": "OpenGL",
+                "value": 75
+            } 
+        ]
+    },
+    {
+        "category": "Communication",
+        "skills": [
+            {
+                "skill": "Arabic",
+                "value": 90
+            },
+            {
+                "skill": "French",
+                "value": 85
+            },
+            {
+                "skill": "English",
+                "value": 80
+            }
+        ]
+    }
+]

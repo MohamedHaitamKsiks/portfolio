@@ -5,10 +5,10 @@
 
 <template>
     <nav class="navbar">
-        <NavbarLink href="/" value="Home" />
+        <NavbarLink href="/" value="About" />
+        <NavbarLink href="/skills" value="Skills" />
         <NavbarLink href="/projects" value="Projects" />
         <NavbarLink href="/freelance" value="Freelance" />
-        <NavbarLink href="/about" value="About" />
     </nav>
 </template>
 

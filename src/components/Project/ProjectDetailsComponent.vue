@@ -30,7 +30,7 @@
                 <i style="opacity: 60%">
                     /*
                     <p> &ensp; {{ project.type }}</p>
-                    <p> &ensp; date : {{ project.date }}</p>
+                    <p> &ensp; date : {{ project.year }}</p>
                     */
                 </i>
 
@@ -134,6 +134,7 @@
         width: 70%;
         height: 100%;
         overflow: hidden;
+        background-color: black;
 
     }
 

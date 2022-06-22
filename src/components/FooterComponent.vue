@@ -60,7 +60,7 @@ import IconComponent from './IconComponent.vue';
         /*border-top-style: solid;
         border-top-width: 2px;*/
 
-        margin-top: 9%;
+       
         
     }
     .icon-list {

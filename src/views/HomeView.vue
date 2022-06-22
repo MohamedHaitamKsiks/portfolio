@@ -12,7 +12,8 @@ import ProfilePicture from "../components/ProfilePictureComponent.vue";
         </div>
         <div class="description-container">
             <p>
-                Hi, I'm Haitam. I'm a software engineer student and a part time game developer.
+                Hi, I'm Haitam. 
+                I'm a software engineer student and a part time game developer located in Morocco.
                 <br/> 
             </p>
             <p>

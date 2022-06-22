@@ -15,6 +15,7 @@
 <style>
     .project-card-tools {
         width: 100%;
+        text-align: left;
     }
 
     /*project tool*/
@@ -36,5 +37,6 @@
         background-color: rgba(12, 18, 21, 0.668);
 
         display: inline-block;
+        
     }
 </style>

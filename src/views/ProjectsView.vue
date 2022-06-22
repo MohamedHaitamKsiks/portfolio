@@ -9,7 +9,10 @@ import ProjectDetailsComponent from '../components/Project/ProjectDetailsCompone
 
         <h1 class="project-div-title"> - Projects - </h1>
         
-        <ProjectCardComponent v-for="(project, index) in sortedProjects" :project="project" :wait="index" @show-details="onShowDetails"/>
+        <div class="project-cards-container">
+            <ProjectCardComponent v-for="(project, index) in sortedProjects" :project="project" :wait="index" @show-details="onShowDetails"/>
+        </div>
+
         <ProjectDetailsComponent v-if="onProjectDetails" @back="onHideDetails" ref="projectDetails" :project="currentProject" :class="'project-details-fade ' + projectDetailsClass" />
 
     </div>
@@ -63,9 +66,12 @@ import ProjectDetailsComponent from '../components/Project/ProjectDetailsCompone
 <style>
     .projects-div {
         /*height: 1000px;*/
-        
         margin: 64px;
         margin-top: 160px;
+    }
+
+    .project-cards-container {
+        text-align: center;
     }
 
     .project-details-fade {

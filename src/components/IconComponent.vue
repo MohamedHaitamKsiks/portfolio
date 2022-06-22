@@ -1,5 +1,10 @@
+
+<template>
+    <a :href="href" class="icon-link"><img :src="'/icons/' + src" class="icon-image" /></a>
+</template>
+
+
 <script>
-import { computed } from '@vue/reactivity';
     //define icon args
     export default{
         props: {
@@ -9,10 +14,6 @@ import { computed } from '@vue/reactivity';
         
     }
 </script>
-
-<template>
-    <a :href="href" class="icon-link"><img :src="'/icons/' + src" class="icon-image"/></a>
-</template>
 
 <style>
     .icon-image {

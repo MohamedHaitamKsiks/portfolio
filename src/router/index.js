@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
 import PageNotFoundView from '../views/PageNotFoundView.vue'
 import FreelanceView from '../views/FreelanceView.vue'
-import AboutView from '../views/AboutView.vue'
+import SkillsView from '../views/SkillsView.vue'
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,9 +24,9 @@ const router = createRouter({
 			component: FreelanceView
 		}, 
 		{
-			path: '/about',
-			name: 'about',
-			component: AboutView
+			path: '/skills',
+			name: 'skills',
+			component: SkillsView
 		},
 		{
 			path: '/:pathMatch(.*)*',

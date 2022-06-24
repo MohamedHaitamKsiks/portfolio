@@ -117,5 +117,43 @@
             "dd0301d9-af33-4173-a0c0-fd5859c1e3f7.gif"
         ],
         "main": 0
+    },
+    {
+        "id": "c11b1d5e-d162-4e1f-8c3d-f927f694206f",
+        "title": "Law Firm Manager",
+        "description": "A Law firm manager created to make it easy for lawyers to organize their cases, It was made as an end of year school project.",
+        "type": "WEB Application",
+        "year": "2022",
+        "link": "https://github.com/MohamedHaitamKsiks/PFA_1A",
+        "tools": [
+            "HTML",
+            "CSS",
+            "VueJS",
+            "ExpressJS"
+        ],
+        "images": [
+            "ef099837-d64b-496f-9867-24794fc4d7f4.png",
+            "94dad9b2-a73a-42f5-9e3b-5cbfee6c0a55.png",
+            "65a2482c-b567-44ce-8586-efac4512a0c1.png",
+            "81e0f610-7b02-4794-bbd4-6fc4cf048b91.png"
+        ],
+        "main": 2
+    },
+    {
+        "id": "0c648756-8c9f-4683-a224-4ebe7b322b92",
+        "title": "Algorithm Interpreted",
+        "description": "An interpreter and text-editor for a programming language that I made. It's inspired by the way we write pseudo-code in french.",
+        "type": "Desktop Application",
+        "year": "2019",
+        "link": "https://github.com/MohamedHaitamKsiks/AlgorithmInterpreter",
+        "tools": [
+            "Python"
+        ],
+        "images": [
+            "f6a9fe56-87e0-46ab-9904-eebbded0c9e5.png",
+            "876b2443-8b00-4018-a998-859aa6cbba8c.png",
+            "094606ff-4ca2-4dfb-9ebb-07b8f5575e64.png"
+        ],
+        "main": 1
     }
 ]

@@ -4,7 +4,7 @@ import MoonIcon from './MoonIconComponent.vue';
 </script>
 
 <template>
-    <img v-if="avatar" src="../assets/images/profile2.png" :class="getClass" alt="Profile Picture" @click="onClick()" @mouseenter="hover=true" @mouseleave="hover=false"/>
+    <img v-if="avatar" src="../assets/images/profile2.jpg" :class="getClass" alt="Profile Picture" @click="onClick()" @mouseenter="hover=true" @mouseleave="hover=false"/>
     <img v-if="!avatar" src="../assets/images/real_profile.jpg" :class="getClass" alt="Profile Picture" @click="onClick()" @mouseenter="hover=true" @mouseleave="hover=false"/>
 
     <div class="moons-container" v-if="!$isMobile()">
@@ -23,16 +23,16 @@ import MoonIcon from './MoonIconComponent.vue';
                 avatar: true,
                 onAnimation: false,
                 moonIcons: [
-                    'html5.png',
-                    'css3.png',
-                    'javascript.png',
-                    'node-js.png',
-                    'mysql.png',
-                    'c.png',
-                    'java.png',
-                    'python.png',
-                    'godot.png',
-                    'git.png'
+                    'html5.jpg',
+                    'css3.jpg',
+                    'javascript.jpg',
+                    'node-js.jpg',
+                    'mysql.jpg',
+                    'c.jpg',
+                    'java.jpg',
+                    'python.jpg',
+                    'godot.jpg',
+                    'git.jpg'
                 ],
                 radius: 0,
                 hover: false,
